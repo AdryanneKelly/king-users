@@ -33,7 +33,9 @@ Passo 3: Após isso, no termainal, dentro da pasta do projeto, rode um `composer
 
 Passo 4: Em seguida, rode `php artisan key:generate` 
 
-Passo 5: Após isso, rode um `php artisan serve` e em outra aba do terminal, ainda dentro da pasta, rode `npm run dev`
+Passo 5: Agora, rode `php artisan migrate`
+
+Passo 6: Após isso, rode um `php artisan serve` e em outra aba do terminal, ainda dentro da pasta, rode `npm run dev`
 
 Agora basta acessar [http://localhost:8000/](http://localhost:8000/) para visualizar o projeto no seu navegador 💜
 
