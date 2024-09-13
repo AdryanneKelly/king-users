@@ -24,7 +24,7 @@ Siga o passo a passo para rodar o projeto:
 Passo 1: Clone este repositório na sua máquina usando o comando abaixo:
 
 ```bash
-git clone 
+git clone git@github.com:AdryanneKelly/king-users.git
 ```
 
 Passo 2: Faça uma cópia do arquivo `.env.example` e renomeie para `.env`
