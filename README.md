@@ -23,8 +23,14 @@ Siga o passo a passo para rodar o projeto:
 
 Passo 1: Clone este repositório na sua máquina usando o comando abaixo:
 
-Passo 2: Com o repositório clonado, entre na pasta do projeto e rode um `composer install`
+```bash
+git clone 
+```
 
-Passo 3: Em seguida, rode `php artisan key:generate` 
+Passo 2: Faça uma cópia do arquivo `.env.example` e renomeie para `.env`
 
-Passo 4: Após isso, rode um `php artisan serve` e em outra aba do terminal, ainda dentro da pasta, rode `npm run dev`
+Passo 3: Após isso, no termainal, dentro da pasta do projeto, rode um `composer install` e um `npm install`
+
+Passo 4: Em seguida, rode `php artisan key:generate` 
+
+Passo 5: Após isso, rode um `php artisan serve` e em outra aba do terminal, ainda dentro da pasta, rode `npm run dev`
