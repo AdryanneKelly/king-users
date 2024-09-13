@@ -15,18 +15,18 @@
             <div class="grid max-h-[50vh] overflow-auto">
                 <div class="grid xl:grid-cols-3 lg:grid-cols-2 gap-4">
                     @foreach ($data as $user)
-                            <div class="bg-violet-100 rounded-xl flex flex-row gap-2 p-2 shadow-md">
-                                <img src={{ $user['image'] }} alt="" class="rounded-full max-h-[60%]">
-                                <div class="flex flex-col gap-1">
-                                    <span class="font-bold">{{ $user['firstName'] . ' ' . $user['lastName'] }}</span>
-                                    <span>{{ $user['address']['city'] . ', ' . $user['address']['stateCode'] }}</span>
-                                    <span
-                                        class="rounded-full px-2 border-2 border-violet-500 text-sm text-violet-600 max-w-[100%] text-ellipsis">{{ $user['email'] }}</span>
-                                    <span
-                                        class="rounded-full px-2 border-2 border-violet-500 text-sm text-violet-600 w-fit">{{ $user['phone'] }}</span>
-                                </div>
+                        <div class="bg-violet-100 rounded-xl flex flex-row gap-2 p-2 shadow-md">
+                            <img src={{ $user['image'] }} alt="" class="rounded-full max-h-[60%]">
+                            <div class="flex flex-col gap-1">
+                                <span class="font-bold">{{ $user['firstName'] . ' ' . $user['lastName'] }}</span>
+                                <span>{{ $user['address']['city'] . ', ' . $user['address']['stateCode'] }}</span>
+                                <span
+                                    class="rounded-full px-2 border-2 border-violet-500 text-sm text-violet-600 max-w-[100%] text-ellipsis">{{ $user['email'] }}</span>
+                                <span
+                                    class="rounded-full px-2 border-2 border-violet-500 text-sm text-violet-600 w-fit">{{ $user['phone'] }}</span>
                             </div>
-                        @endforeach
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
